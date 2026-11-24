@@ -1,0 +1,23 @@
+# data and large files never go to the repo
+*.h5
+*.npy
+*.npz
+*.zip
+*.pt
+*.pth
+*.onnx
+*.mat
+*.pkl
+*.parquet
+*.log
+data/
+extract/
+das_brno/
+# python
+__pycache__/
+*.pyc
+.venv/
+venv*/
+# generated checks
+tmp_*
+*.tmp
